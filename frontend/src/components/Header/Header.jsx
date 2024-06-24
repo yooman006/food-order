@@ -15,7 +15,7 @@ const Header = () => {
             href="#explore-menu" 
             onClick={() => setMenu("menu")} 
             className={menu === "menu" ? "active" : ""}
-          > View Menu/</a></button>
+          > View Menu</a></button>
         </div>
     </div>
   )
