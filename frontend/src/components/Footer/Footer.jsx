@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt="" />
-                <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                <p>Join us at YooFoods and discover why we're more than just a restaurant – we're a destination for food lovers, a place where every meal is an occasion to celebrate taste, community, and the joy of good food. Experience the difference at YooFoods, where every dish is a testament to our passion for food and commitment to your satisfaction.</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
