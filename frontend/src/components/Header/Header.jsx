@@ -9,7 +9,7 @@ const Header = () => {
     <div className='header'>
         <div className="header-contents">
             <h2>Order your favorite food here</h2>
-            <p>kjgklfgkjgpoierjtkrtgorihksdfkljroikskfiudshksdnfshkgnsjkfhhjj</p>
+            <p>At YooFoods, we believe in crafting culinary experiences that elevate everyday moments into extraordinary memories.</p>
             <button>
             <a 
             href="#explore-menu" 
