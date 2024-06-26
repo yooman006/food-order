@@ -28,7 +28,7 @@ const MyOrders = () => {
 
     return (
         <div className='my-orders'>
-            <h2>My Orders</h2>
+            <h2>My orders</h2>
             <div className="container">
                 {error ? (
                     <p>{error}</p>
