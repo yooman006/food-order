@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState,useNavigate } from 'react';
 import './PlaceOrder.css';
 import { StoreContext } from '../../Context/StoreContext';
 import axios from 'axios';
-import { toast } from 'react-toastify'
 
 const PlaceOrder = () => {
   const { getTotalCartAmount, token, food_list, cartItems, url } = useContext(StoreContext);
@@ -34,7 +33,6 @@ const PlaceOrder = () => {
         let itemInfo = item;
         itemInfo["quantity"]=cartItems[item._id];
         orderItems.push(itemInfo)
-        toast.success(response.data.message)
       }
     })
     let orderData ={
